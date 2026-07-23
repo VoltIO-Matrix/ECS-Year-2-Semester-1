@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="370" viewBox="0 0 960 370">
+  
+  <rect style="fill:#ffffff" x="0" y="0" width="900" height="370"/>
+  
+<text x="24" y="42" style="font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:700;fill:#2C2C2B">Open-loop frequency response</text>
+<line style="stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round" x1="90" y1="300" x2="850" y2="300"/><line style="stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round" x1="90" y1="300" x2="90" y2="70"/>
+<text x="40" y="80" style="font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#2C2C2B">Gain</text><text x="820" y="335" style="font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#2C2C2B">Frequency</text>
+<path style="stroke:#2783DE;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round" d="M90 100 H250 L790 300"/>
+<line style="stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round" x1="250" y1="100" x2="250" y2="300"/><text x="215" y="330" style="font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#2C2C2B">dominant pole</text>
+<text x="375" y="182" style="font-family:Arial,Helvetica,sans-serif;font-size:22px;fill:#2C2C2B">−20 dB/decade</text><text x="122" y="92" style="font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#2C2C2B">large low-frequency gain</text>
+<line style="stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round" x1="90" y1="125" x2="260" y2="125"/><text x="105" y="150" style="font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#2C2C2B">−3 dB point</text>
+</svg>
