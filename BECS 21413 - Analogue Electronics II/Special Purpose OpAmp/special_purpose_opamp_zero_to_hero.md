@@ -80,7 +80,7 @@ These are useful for sensors and measurement systems.
 
 ## 4. Three-op-amp instrumentation amplifier
 
-![Instrumentation amplifier](images/02_inamp.png)
+![Instrumentation amplifier](images/02_inamp.svg)
 
 A common instrumentation amplifier has three op-amps:
 
