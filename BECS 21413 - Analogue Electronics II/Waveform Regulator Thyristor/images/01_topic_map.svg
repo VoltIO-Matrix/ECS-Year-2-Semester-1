@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560">
+<rect width="1120" height="560" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .tiny{font-size:14px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Latest PDFs — topic map</text>
+<rect x="70" y="95" width="300" height="110" rx="14" class="note"/><text x="110" y="135" class="t txt">Oscillators</text><text x="105" y="168" class="t small">Barkhausen condition, start-up</text>
+<rect x="410" y="95" width="300" height="110" rx="14" class="note"/><text x="450" y="135" class="t txt">Waveform generators</text><text x="455" y="168" class="t small">triangular, astable, monostable</text>
+<rect x="750" y="95" width="300" height="110" rx="14" class="note"/><text x="800" y="135" class="t txt">Precision rectifiers</text><text x="805" y="168" class="t small">half-wave and full-wave</text>
+<rect x="70" y="260" width="300" height="110" rx="14" class="note"/><text x="115" y="300" class="t txt">Analogue computation</text><text x="115" y="333" class="t small">integrators solve equations</text>
+<rect x="410" y="260" width="300" height="110" rx="14" class="note"/><text x="470" y="300" class="t txt">Voltage regulators</text><text x="445" y="333" class="t small">line/load regulation, series/shunt</text>
+<rect x="750" y="260" width="300" height="110" rx="14" class="note"/><text x="825" y="300" class="t txt">Thyristors</text><text x="805" y="333" class="t small">Shockley diode, SCR, DIAC, TRIAC</text>
+<rect x="250" y="420" width="620" height="85" rx="14" class="box"/><text x="315" y="455" class="t txt">Exam focus</text><text x="315" y="485" class="t small">conditions, formulas, waveforms, regulation, trigger/holding concepts</text>
+
+</svg>

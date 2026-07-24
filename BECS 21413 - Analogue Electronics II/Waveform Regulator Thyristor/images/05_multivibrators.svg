@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="470" viewBox="0 0 1050 470">
+<rect width="1050" height="470" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .tiny{font-size:14px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Three types of multivibrators</text>
+<rect x="70" y="105" width="270" height="260" rx="14" class="note"/><text x="135" y="145" class="t txt">Bistable</text><text x="105" y="185" class="t small">two stable states</text><text x="105" y="220" class="t small">needs trigger to change</text><text x="105" y="255" class="t small">flip-flop / latch</text><path d="M105 315 H165 V275 H225" class="blue"/>
+<rect x="390" y="105" width="270" height="260" rx="14" class="note"/><text x="455" y="145" class="t txt">Monostable</text><text x="425" y="185" class="t small">one stable state</text><text x="425" y="220" class="t small">trigger gives one pulse</text><text x="425" y="255" class="t small">then returns automatically</text><path d="M425 315 H480 V275 H555 V315 H610" class="green"/>
+<rect x="710" y="105" width="270" height="260" rx="14" class="note"/><text x="785" y="145" class="t txt">Astable</text><text x="745" y="185" class="t small">no stable state</text><text x="745" y="220" class="t small">free-running oscillator</text><text x="745" y="255" class="t small">square wave output</text><path d="M745 315 H785 V275 H825 V315 H865 V275 H905" class="orange"/>
+
+</svg>

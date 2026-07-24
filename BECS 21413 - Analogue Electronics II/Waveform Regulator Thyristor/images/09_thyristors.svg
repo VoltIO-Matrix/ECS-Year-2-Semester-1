@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560">
+<rect width="1120" height="560" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .tiny{font-size:14px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Thyristor family — latching power control devices</text>
+<rect x="65" y="95" width="230" height="120" rx="14" class="note"/><text x="105" y="135" class="t txt">Shockley diode</text><text x="105" y="168" class="t small">4-layer PNPN</text><text x="105" y="195" class="t small">turns on at breakover</text>
+<rect x="325" y="95" width="230" height="120" rx="14" class="note"/><text x="410" y="135" class="t txt">SCR</text><text x="365" y="168" class="t small">anode, cathode, gate</text><text x="365" y="195" class="t small">gate triggers turn-on</text>
+<rect x="585" y="95" width="230" height="120" rx="14" class="note"/><text x="665" y="135" class="t txt">DIAC</text><text x="625" y="168" class="t small">bidirectional trigger diode</text><text x="625" y="195" class="t small">turns on at breakover</text>
+<rect x="845" y="95" width="230" height="120" rx="14" class="note"/><text x="925" y="135" class="t txt">TRIAC</text><text x="885" y="168" class="t small">bidirectional with gate</text><text x="885" y="195" class="t small">AC power control</text>
+<g transform="translate(110,295)"><text x="0" y="0" class="t txt">Key characteristic</text><line x1="0" y1="170" x2="430" y2="170" class="axis"/><line x1="40" y1="210" x2="40" y2="30" class="axis"/><path d="M40 160 C150 158 250 155 270 120 C290 70 345 55 430 45" class="blue"/><line x1="270" y1="120" x2="270" y2="170" stroke="#E56458" stroke-width="3" stroke-dasharray="8 8"/><text x="240" y="200" class="t small">VBR(F)</text><text x="60" y="65" class="t small">on state</text><text x="105" y="150" class="t small">forward blocking</text></g>
+<rect x="620" y="285" width="420" height="190" rx="14" class="box"/><text x="650" y="325" class="t txt">Important words</text><text x="650" y="365" class="t small">Switching current IS: current at turn-on</text><text x="650" y="398" class="t small">Holding current IH: minimum current to stay ON</text><text x="650" y="431" class="t small">To turn off SCR: reduce current below IH</text>
+
+</svg>

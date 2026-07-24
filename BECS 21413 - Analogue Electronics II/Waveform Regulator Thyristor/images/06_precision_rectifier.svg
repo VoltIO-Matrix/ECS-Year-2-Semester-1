@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="550" viewBox="0 0 1120 550">
+<rect width="1120" height="550" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .tiny{font-size:14px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Precision rectifier — removes diode 0.7 V problem</text>
+<g transform="translate(70,95)"><text x="0" y="0" class="t txt">Ordinary diode rectifier</text><line x1="0" y1="170" x2="360" y2="170" class="axis"/><path d="M0 170 C50 60 100 60 150 170 C200 280 250 280 300 170 C320 126 340 100 360 95" class="blue"/><path d="M0 170 C50 170 95 170 120 105 C135 75 150 170 180 170 C230 170 280 170 310 110 C325 80 340 170 360 170" class="orange"/><text x="0" y="315" class="t small">Small signals below about 0.7 V are lost.</text></g>
+<g transform="translate(610,95)"><text x="0" y="0" class="t txt">Precision rectifier</text><polygon points="80,80 80,210 240,145" class="op"/><line x1="0" y1="145" x2="80" y2="145" class="wire"/><path d="M240 145 H315 l25 -25 v50 l-25 -25 H430" class="wire"/><text x="0" y="130" class="t small">Vs</text><text x="445" y="150" class="t small">Vo</text><text x="0" y="315" class="t small">Op-amp compensates diode drop, so small signals can be rectified.</text></g>
+<rect x="130" y="425" width="820" height="75" rx="14" class="note"/><text x="160" y="470" class="t txt">Full-wave precision rectifier output: Vo = A|Vs|</text>
+
+</svg>

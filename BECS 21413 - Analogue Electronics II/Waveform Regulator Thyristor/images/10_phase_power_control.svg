@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="480" viewBox="0 0 1050 480">
+<rect width="1050" height="480" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .tiny{font-size:14px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">TRIAC phase control: delay angle and conduction angle</text>
+<g transform="translate(80,100)"><line x1="0" y1="180" x2="450" y2="180" class="axis"/><path d="M0 180 C55 60 115 60 170 180 C225 300 285 300 340 180 C375 105 410 75 450 80" class="blue"/><path d="M0 180 H85 C95 125 125 70 170 70 C225 70 270 180 270 180 H340 C350 125 380 80 450 80" class="orange"/><line x1="85" y1="80" x2="85" y2="290" stroke="#E56458" stroke-width="3" stroke-dasharray="8 8"/><line x1="270" y1="80" x2="270" y2="290" stroke="#E56458" stroke-width="3" stroke-dasharray="8 8"/><text x="40" y="330" class="t small">delay angle</text><text x="105" y="105" class="t small">conduction</text><text x="285" y="105" class="t small">conduction</text><text x="0" y="385" class="t small">Trigger later → less conduction time → less power to load.</text></g>
+<rect x="620" y="125" width="350" height="230" rx="14" class="note"/><text x="650" y="170" class="t txt">Full-wave AC power control</text><text x="650" y="215" class="t small">R control changes trigger point.</text><text x="650" y="250" class="t small">Off time = delay angle.</text><text x="650" y="285" class="t small">On time = conduction angle.</text><text x="650" y="320" class="t small">TRIAC conducts both half cycles.</text>
+
+</svg>

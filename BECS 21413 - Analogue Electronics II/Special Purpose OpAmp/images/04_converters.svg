@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560">
+<rect width="1120" height="560" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .tiny{font-size:14px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Current / voltage converter circuits</text>
+<g transform="translate(65,95)">
+<text x="0" y="0" class="t txt">Current-to-voltage converter</text><line x1="0" y1="120" x2="170" y2="120" class="wire"/><text x="5" y="105" class="t small">Iin</text><polygon points="170,70 170,190 330,130" class="op"/><line x1="330" y1="130" x2="470" y2="130" class="wire"/><path d="M240 120 V40 H395 V130" class="wire"/><path d="M260 40 l10 -15 l10 30 l10 -30 l10 30 l10 -30 l10 15" class="wire"/><text x="275" y="25" class="t small">Rf</text><text x="485" y="135" class="t small">Vo = −Iin Rf</text><text x="0" y="245" class="t small">Used with photodiodes / light sensors.</text>
+</g>
+<g transform="translate(65,350)">
+<text x="0" y="0" class="t txt">Voltage-to-current converter / constant current idea</text><rect x="0" y="50" width="200" height="80" rx="12" class="note"/><text x="45" y="98" class="t txt">Vin</text><line x1="200" y1="90" x2="310" y2="90" class="wire"/><rect x="310" y="50" width="210" height="80" rx="12" class="note"/><text x="345" y="98" class="t txt">Op-amp control</text><line x1="520" y1="90" x2="650" y2="90" class="wire"/><rect x="650" y="50" width="190" height="80" rx="12" class="note"/><text x="705" y="98" class="t txt">Load RL</text><text x="860" y="98" class="t txt">IL controlled by Vin</text><text x="0" y="180" class="t small">If sense resistor is Rs, ideal relation often becomes: IL = Vin/Rs.</text>
+</g>
+
+</svg>

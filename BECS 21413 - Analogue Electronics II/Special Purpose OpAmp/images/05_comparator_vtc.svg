@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="520" viewBox="0 0 1080 520">
+<rect width="1080" height="520" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .tiny{font-size:14px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Analogue voltage comparator</text>
+<g transform="translate(70,100)"><text x="0" y="0" class="t txt">Comparator rule</text><polygon points="190,70 190,210 360,140" class="op"/><line x1="45" y1="105" x2="190" y2="105" class="wire"/><line x1="45" y1="175" x2="190" y2="175" class="wire"/><line x1="360" y1="140" x2="500" y2="140" class="wire"/><text x="55" y="95" class="t small">Vp (+)</text><text x="55" y="200" class="t small">Vn (−)</text><text x="515" y="145" class="t small">Vo</text><text x="0" y="285" class="t small">If Vp &gt; Vn → Vo = VOH</text><text x="0" y="318" class="t small">If Vp &lt; Vn → Vo = VOL</text></g>
+<g transform="translate(650,100)"><text x="0" y="0" class="t txt">Ideal VTC</text><line x1="0" y1="230" x2="330" y2="230" class="axis"/><line x1="165" y1="300" x2="165" y2="40" class="axis"/><path d="M0 270 H165 V75 H330" class="blue"/><text x="285" y="255" class="t small">Vd</text><text x="178" y="55" class="t small">Vo</text><text x="185" y="82" class="t small">VOH</text><text x="15" y="285" class="t small">VOL</text><text x="45" y="360" class="t small">Vd = Vp − Vn</text></g>
+
+</svg>

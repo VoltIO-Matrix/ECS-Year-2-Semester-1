@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560">
+<rect width="1120" height="560" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .tiny{font-size:14px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Triangular wave generator and astable multivibrator</text>
+<g transform="translate(70,95)">
+<text x="0" y="0" class="t txt">Triangular wave generator</text><rect x="0" y="55" width="230" height="90" rx="14" class="note"/><text x="45" y="110" class="t txt">Schmitt trigger</text><line x1="230" y1="100" x2="335" y2="100" class="wire"/><rect x="335" y="55" width="230" height="90" rx="14" class="note"/><text x="410" y="110" class="t txt">Integrator</text><path d="M520 145 V215 H85 V145" class="wire"/><text x="0" y="270" class="t small">Schmitt output is square wave. Integrator output becomes triangular wave.</text><text x="0" y="305" class="t small">Vpp(triangle) = (2R2/R1) Vsat</text>
+</g>
+<g transform="translate(690,95)">
+<text x="0" y="0" class="t txt">Astable multivibrator</text><line x1="0" y1="160" x2="350" y2="160" class="axis"/><path d="M0 70 H80 V250 H160 V70 H240 V250 H320" class="blue"/><text x="0" y="285" class="t small">Free-running: no stable state.</text><text x="0" y="320" class="t small">Output continuously switches +Vsat and -Vsat.</text><text x="0" y="365" class="t small">T = 2RC ln[(Vsat+VT)/(Vsat−VT)]</text><text x="0" y="400" class="t small">fo = 1/T</text>
+</g>
+
+</svg>
