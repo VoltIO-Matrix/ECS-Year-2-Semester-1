@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460">
+<rect width="1000" height="460" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">First-order low-pass and high-pass magnitude equations</text>
+<g transform="translate(80,105)"><text x="0" y="0" class="t txt">Low-pass</text><line x1="0" y1="250" x2="360" y2="250" class="axis"/><line x1="0" y1="250" x2="0" y2="25" class="axis"/><path d="M0 60 C110 60 145 180 230 220 C280 238 330 245 360 247" class="blue"/><line x1="165" y1="55" x2="165" y2="250" stroke="#E6E5E3" stroke-width="2"/><text x="145" y="278" class="t small">fc</text><text x="15" y="48" class="t small">To</text><text x="178" y="118" class="t small">0.707To</text><text x="0" y="330" class="t txt">|T| = To / √[1+(f/fc)²]</text></g>
+<g transform="translate(560,105)"><text x="0" y="0" class="t txt">High-pass</text><line x1="0" y1="250" x2="360" y2="250" class="axis"/><line x1="0" y1="250" x2="0" y2="25" class="axis"/><path d="M0 247 C50 245 100 238 130 220 C215 180 250 60 360 60" class="green"/><line x1="195" y1="55" x2="195" y2="250" stroke="#E6E5E3" stroke-width="2"/><text x="175" y="278" class="t small">fc</text><text x="315" y="48" class="t small">To</text><text x="165" y="118" class="t small">0.707To</text><text x="0" y="330" class="t txt">|T| = To(f/fc) / √[1+(f/fc)²]</text></g>
+
+</svg>

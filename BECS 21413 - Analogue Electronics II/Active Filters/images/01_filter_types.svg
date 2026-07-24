@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="1100" height="620" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Main filter types — what passes and what rejects?</text>
+<g transform="translate(55,90)">
+  <text x="0" y="0" class="t txt">Low-pass</text><line x1="0" y1="135" x2="210" y2="135" class="axis"/><line x1="0" y1="135" x2="0" y2="15" class="axis"/><path d="M0 35 H92 C115 35 120 120 210 120" class="blue"/><text x="15" y="165" class="t small">passes low f</text><text x="130" y="165" class="t small">rejects high f</text>
+</g>
+<g transform="translate(330,90)">
+  <text x="0" y="0" class="t txt">High-pass</text><line x1="0" y1="135" x2="210" y2="135" class="axis"/><line x1="0" y1="135" x2="0" y2="15" class="axis"/><path d="M0 120 C85 120 95 35 130 35 H210" class="green"/><text x="5" y="165" class="t small">rejects low f</text><text x="125" y="165" class="t small">passes high f</text>
+</g>
+<g transform="translate(605,90)">
+  <text x="0" y="0" class="t txt">Band-pass</text><line x1="0" y1="135" x2="210" y2="135" class="axis"/><line x1="0" y1="135" x2="0" y2="15" class="axis"/><path d="M0 120 C45 120 55 35 105 35 C155 35 165 120 210 120" class="orange"/><text x="45" y="165" class="t small">only middle band passes</text>
+</g>
+<g transform="translate(55,355)">
+  <text x="0" y="0" class="t txt">Band-reject / stop</text><line x1="0" y1="135" x2="210" y2="135" class="axis"/><line x1="0" y1="135" x2="0" y2="15" class="axis"/><path d="M0 35 H60 C85 35 85 120 105 120 C125 120 125 35 150 35 H210" class="red"/><text x="30" y="165" class="t small">middle band rejected</text>
+</g>
+<g transform="translate(330,355)">
+  <text x="0" y="0" class="t txt">Notch</text><line x1="0" y1="135" x2="210" y2="135" class="axis"/><line x1="0" y1="135" x2="0" y2="15" class="axis"/><path d="M0 35 H90 C103 35 103 120 105 120 C107 120 107 35 120 35 H210" class="red"/><text x="30" y="165" class="t small">one narrow frequency rejected</text>
+</g>
+<g transform="translate(605,355)">
+  <text x="0" y="0" class="t txt">All-pass</text><line x1="0" y1="135" x2="210" y2="135" class="axis"/><line x1="0" y1="135" x2="0" y2="15" class="axis"/><path d="M0 55 H210" class="blue"/><text x="25" y="165" class="t small">amplitude constant, phase changes</text>
+</g>
+<rect x="855" y="115" width="210" height="360" rx="14" class="note"/>
+<text x="880" y="155" class="t txt">Exam idea</text><text x="880" y="195" class="t small">Filter = frequency selector</text><text x="880" y="225" class="t small">T(jω) = Vout/Vin</text><text x="880" y="255" class="t small">fc = -3 dB point</text><text x="880" y="285" class="t small">1st order: 20 dB/dec</text><text x="880" y="315" class="t small">2nd order: 40 dB/dec</text><text x="880" y="360" class="t small">Capacitor:</text><text x="880" y="390" class="t small">low f = open</text><text x="880" y="420" class="t small">high f = short</text>
+
+</svg>

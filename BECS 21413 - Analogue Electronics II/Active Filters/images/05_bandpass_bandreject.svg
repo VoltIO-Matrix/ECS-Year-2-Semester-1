@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="560" viewBox="0 0 1050 560">
+<rect width="1050" height="560" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Band-pass and band-reject from low/high sections</text>
+<g transform="translate(70,95)">
+<text x="0" y="0" class="t txt">Band-pass = High-pass × Low-pass</text>
+<rect x="0" y="60" width="190" height="90" rx="12" class="note"/><text x="45" y="112" class="t txt">High-pass</text><line x1="190" y1="105" x2="260" y2="105" class="wire"/><rect x="260" y="60" width="190" height="90" rx="12" class="note"/><text x="315" y="112" class="t txt">Low-pass</text><line x1="450" y1="105" x2="535" y2="105" class="wire"/><text x="0" y="200" class="t small">Low f blocked by high-pass. High f blocked by low-pass. Middle passes.</text>
+<line x1="0" y1="330" x2="400" y2="330" class="axis"/><line x1="0" y1="330" x2="0" y2="230" class="axis"/><path d="M0 320 C70 320 75 245 160 245 H235 C320 245 325 320 400 320" class="orange"/><text x="140" y="360" class="t small">fL</text><text x="235" y="360" class="t small">fH</text><text x="165" y="225" class="t small">pass band</text>
+</g>
+<g transform="translate(70,430)"><text x="0" y="0" class="t txt">Band-reject = Low-pass and High-pass in parallel, then add</text><path d="M0 90 C95 90 100 155 200 155 C300 155 305 90 400 90" class="red"/><line x1="0" y1="175" x2="400" y2="175" class="axis"/><line x1="0" y1="175" x2="0" y2="70" class="axis"/><text x="140" y="205" class="t small">fH</text><text x="235" y="205" class="t small">fL</text><text x="155" y="145" class="t small">stop band</text></g>
+<rect x="650" y="145" width="340" height="250" rx="14" class="note"/><text x="675" y="185" class="t txt">Band-pass formulas</text><text x="675" y="225" class="t small">BW = fH − fL</text><text x="675" y="255" class="t small">fo = √(fL fH)</text><text x="675" y="285" class="t small">Q = fo / BW</text><text x="675" y="330" class="t small">Q &lt; 10 → wide band-pass</text><text x="675" y="360" class="t small">Q &gt; 10 → narrow band-pass</text>
+
+</svg>

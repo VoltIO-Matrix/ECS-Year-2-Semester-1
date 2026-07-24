@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+<rect width="1100" height="520" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Active first-order filters with op-amp gain</text>
+<g transform="translate(60,90)">
+<text x="0" y="0" class="t txt">Inverting active low-pass</text>
+<line x1="0" y1="120" x2="100" y2="120" class="wire"/><path d="M100 120 l10 -16 l10 32 l10 -32 l10 32 l10 -32 l10 16" class="wire"/><line x1="170" y1="120" x2="300" y2="120" class="wire"/><polygon points="300,70 300,190 455,130" class="op"/><line x1="455" y1="130" x2="555" y2="130" class="wire"/><path d="M365 120 V45 H500 V130" class="wire"/><path d="M390 45 l10 -16 l10 32 l10 -32 l10 32 l10 -32 l10 16" class="wire"/><line x1="450" y1="30" x2="450" y2="60" class="wire"/><line x1="470" y1="30" x2="470" y2="60" class="wire"/><text x="115" y="88" class="t small">R1</text><text x="400" y="20" class="t small">Rf || C</text><text x="575" y="135" class="t small">Vo</text><text x="0" y="105" class="t small">Vin</text><text x="0" y="250" class="t small">T(jω)=−(Rf/R1)/(1+jωRfC)</text><text x="0" y="282" class="t small">fc=1/(2πRfC), pass-band gain=−Rf/R1</text>
+</g>
+<g transform="translate(60,345)"><rect x="0" y="0" width="980" height="120" rx="14" class="note"/><text x="25" y="42" class="t txt">How to read this circuit</text><text x="25" y="75" class="t small">At low frequency C is nearly open, so feedback is mainly Rf → normal inverting amplifier.</text><text x="25" y="102" class="t small">At high frequency C becomes low impedance, feedback becomes strong → gain drops → low-pass behavior.</text></g>
+
+</svg>

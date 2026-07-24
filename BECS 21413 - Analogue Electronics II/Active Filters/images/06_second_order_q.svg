@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="520" viewBox="0 0 1050 520">
+<rect width="1050" height="520" fill="#ffffff"/>
+<style>
+.t{font-family:Arial,Helvetica,sans-serif;fill:#2C2C2B} .title{font-size:28px;font-weight:700} .txt{font-size:20px} .small{font-size:16px} .wire{stroke:#2C2C2B;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round} .axis{stroke:#7D7A75;stroke-width:2;fill:none;stroke-linecap:round} .blue{stroke:#2783DE;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .green{stroke:#46A171;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .orange{stroke:#D5803B;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .red{stroke:#E56458;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round} .box{fill:#F9F8F7;stroke:#E6E5E3;stroke-width:2} .note{fill:#E5F2FC;stroke:#2783DE;stroke-width:2} .op{fill:#F0EFED;stroke:#2C2C2B;stroke-width:3}
+</style>
+
+<text x="35" y="45" class="t title">Second-order filters and Q factor</text>
+<g transform="translate(75,95)"><line x1="0" y1="330" x2="500" y2="330" class="axis"/><line x1="0" y1="330" x2="0" y2="30" class="axis"/><path d="M0 95 H170 C230 95 250 320 500 325" class="blue"/><path d="M0 100 H155 C205 100 220 40 245 65 C275 100 295 285 500 325" class="orange"/><path d="M0 105 H145 C190 105 205 5 235 28 C285 70 285 280 500 325" class="red"/><line x1="235" y1="30" x2="235" y2="330" stroke="#E6E5E3" stroke-width="2"/><text x="220" y="360" class="t small">fc</text><text x="20" y="85" class="t small">flat / low Q</text><text x="275" y="72" class="t small">peaking / high Q</text><text x="100" y="395" class="t txt">Higher Q = sharper and more peaky response</text></g>
+<rect x="620" y="100" width="380" height="330" rx="14" class="note"/><text x="650" y="145" class="t txt">Second-order standard denominator</text><text x="650" y="190" class="t small">1 − (f/fc)² + j(1/Q)(f/fc)</text><text x="650" y="240" class="t txt">Roll-off</text><text x="650" y="280" class="t small">1st order: 20 dB/decade</text><text x="650" y="310" class="t small">2nd order: 40 dB/decade</text><text x="650" y="360" class="t txt">Butterworth</text><text x="650" y="400" class="t small">Q = 0.707 = maximally flat</text>
+
+</svg>
