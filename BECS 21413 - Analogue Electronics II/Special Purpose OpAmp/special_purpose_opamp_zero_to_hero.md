@@ -14,7 +14,7 @@ This file explains the lecture content clearly, step by step, with formulas and 
 3. Then learn the **input-output behavior**.
 4. Finally solve the practice problems at the end.
 
-![Special-purpose op-amp map](images/01_special_opamp_map.png)
+![Special-purpose op-amp map](images/01_special_opamp_map.svg)
 
 ---
 
@@ -183,7 +183,7 @@ input ground and output ground are not directly connected
 
 But the signal can still pass across an isolation barrier.
 
-![Isolation amplifier](images/03_isolation.png)
+![Isolation amplifier](images/03_isolation.svg)
 
 ---
 
@@ -231,7 +231,7 @@ So there is no common electrical path.
 
 # Part C — Current and Voltage Converter Circuits
 
-![Converter circuits](images/04_converters.png)
+![Converter circuits](images/04_converters.svg)
 
 ---
 
@@ -363,7 +363,7 @@ It converts analogue input information into a binary output.
 
 So a comparator is like a one-bit analogue-to-digital converter.
 
-![Comparator VTC](images/05_comparator_vtc.png)
+![Comparator VTC](images/05_comparator_vtc.svg)
 
 ---
 
@@ -499,7 +499,7 @@ Vo = +Vsat for Vin < 0
 
 A zero-level detector changes output state when the input crosses zero volts.
 
-![Zero and threshold detectors](images/06_detectors.png)
+![Zero and threshold detectors](images/06_detectors.svg)
 
 For sine wave input:
 
@@ -595,7 +595,7 @@ The difference between them is called hysteresis.
 hysteresis width = VU - VL
 ```
 
-![Schmitt trigger](images/07_schmitt.png)
+![Schmitt trigger](images/07_schmitt.svg)
 
 ---
 
@@ -728,7 +728,7 @@ logic circuit accepts 0 to 5 V only
 
 So we use limiters to bound the output voltage.
 
-![Limiters and oscillators](images/08_limiters_oscillators.png)
+![Limiters and oscillators](images/08_limiters_oscillators.svg)
 
 ---
 
