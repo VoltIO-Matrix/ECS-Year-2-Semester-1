@@ -82,7 +82,7 @@ Active filters do not usually need inductors.
 
 ## 3. The main filter types
 
-![Main filter types](images/01_filter_types.png)
+![Main filter types](images/01_filter_types.svg)
 
 ## 3.1 Low-pass filter
 
@@ -290,7 +290,7 @@ Higher order means sharper cutoff.
 
 ## 5. Capacitor behavior — the heart of filters
 
-![RC low-pass and high-pass concept](images/02_rc_low_high.png)
+![RC low-pass and high-pass concept](images/02_rc_low_high.svg)
 
 Capacitor impedance is:
 
@@ -500,7 +500,7 @@ Therefore high frequencies are attenuated.
 
 ## 7. Active low-pass using practical integrator
 
-![Active low-pass using op-amp](images/04_opamp_filter_blocks.png)
+![Active low-pass using op-amp](images/04_opamp_filter_blocks.svg)
 
 Your slides show a practical integrator used as a low-pass filter.
 
@@ -607,7 +607,7 @@ Cutoff frequency:
 fc = 1/(2πRC)
 ```
 
-![First-order responses](images/03_first_order_responses.png)
+![First-order responses](images/03_first_order_responses.svg)
 
 ---
 
@@ -740,7 +740,7 @@ A simple band-pass filter can be formed by cascading:
 high-pass section + low-pass section
 ```
 
-![Band-pass and band-reject idea](images/05_bandpass_bandreject.png)
+![Band-pass and band-reject idea](images/05_bandpass_bandreject.svg)
 
 ## 10.1 Behavior
 
@@ -1004,7 +1004,7 @@ A second-order filter has roll-off:
 
 So second-order filters are sharper.
 
-![Second-order Q response](images/06_second_order_q.png)
+![Second-order Q response](images/06_second_order_q.svg)
 
 ---
 
@@ -1152,7 +1152,7 @@ Second-order low-pass roll-off:
 
 Sallen-Key is a common second-order active filter topology.
 
-![Sallen-Key idea](images/07_sallen_key.png)
+![Sallen-Key idea](images/07_sallen_key.svg)
 
 The op-amp provides gain:
 
@@ -1407,7 +1407,7 @@ Therefore output becomes zero at `fo`.
 
 ## 25. Notch filter / Twin-T network
 
-![Notch filter response](images/08_notch.png)
+![Notch filter response](images/08_notch.svg)
 
 A notch filter is a narrow band-reject filter.
 
