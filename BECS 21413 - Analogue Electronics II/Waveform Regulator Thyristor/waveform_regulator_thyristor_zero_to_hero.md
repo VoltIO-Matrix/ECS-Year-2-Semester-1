@@ -7,7 +7,7 @@ This Markdown file is written for exam study. It explains the topics clearly, st
 
 ## Topic map
 
-![Topic map](images/01_topic_map.png)
+![Topic map](images/01_topic_map.svg)
 
 The uploaded PDFs cover four big areas:
 
@@ -47,7 +47,7 @@ amplifier + feedback network
 
 Part of output is fed back to the input. If the feedback is positive at the required frequency, oscillation builds up.
 
-![Barkhausen condition](images/02_barkhausen.png)
+![Barkhausen condition](images/02_barkhausen.svg)
 
 ---
 
@@ -122,7 +122,7 @@ If loop gain stays greater than 1, output grows until clipping/distortion.
 
 A Wien-bridge oscillator is a sine-wave oscillator using an op-amp and an RC feedback network.
 
-![Wien and RC phase shift oscillators](images/03_wien_rc_phase.png)
+![Wien and RC phase shift oscillators](images/03_wien_rc_phase.svg)
 
 At the oscillation frequency:
 
@@ -266,7 +266,7 @@ A triangular wave generator can be made using:
 Schmitt trigger + integrator
 ```
 
-![Triangular generator and astable](images/04_triangle_astable.png)
+![Triangular generator and astable](images/04_triangle_astable.svg)
 
 The Schmitt trigger output is a square wave.  
 The integrator integrates the square wave and produces a triangular wave.
@@ -319,7 +319,7 @@ R1, R2 = Schmitt trigger resistor values
 
 ## 14. Multivibrators
 
-![Multivibrator types](images/05_multivibrators.png)
+![Multivibrator types](images/05_multivibrators.svg)
 
 There are three types:
 
@@ -437,7 +437,7 @@ This is a problem for small-signal rectification.
 
 A precision rectifier uses an op-amp with diode(s) to overcome the 0.7 V diode drop problem.
 
-![Precision rectifier](images/06_precision_rectifier.png)
+![Precision rectifier](images/06_precision_rectifier.svg)
 
 The op-amp output provides extra voltage to make the diode conduct even for small inputs.
 
@@ -517,7 +517,7 @@ It uses circuits such as:
 
 ## 24. Op-amp integrator as computing element
 
-![Analogue computation integrator](images/07_analogue_computation.png)
+![Analogue computation integrator](images/07_analogue_computation.svg)
 
 Integrator formula:
 
@@ -591,7 +591,7 @@ A voltage regulator gives a nearly constant output voltage even when:
 - load current changes
 - temperature changes
 
-![Voltage regulator concepts](images/08_regulators.png)
+![Voltage regulator concepts](images/08_regulators.svg)
 
 ---
 
@@ -797,7 +797,7 @@ Types:
 - DIAC
 - TRIAC
 
-![Thyristor family](images/09_thyristors.png)
+![Thyristor family](images/09_thyristors.svg)
 
 ---
 
@@ -893,7 +893,7 @@ A gate pulse can trigger it on during either half-cycle.
 
 ## 43. Full-wave power control using TRIAC
 
-![TRIAC phase power control](images/10_phase_power_control.png)
+![TRIAC phase power control](images/10_phase_power_control.svg)
 
 In TRIAC phase control, the trigger point is delayed after each zero crossing.
 
