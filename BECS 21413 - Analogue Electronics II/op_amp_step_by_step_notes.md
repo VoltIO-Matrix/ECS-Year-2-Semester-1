@@ -50,7 +50,7 @@ An op-amp normally has at least **five terminals**:
 4. **Positive supply**: `+VCC`
 5. **Negative supply**: `−VCC`
 
-![Ideal op-amp symbol and terminals](images/01_op_amp_symbol.png)
+![Ideal op-amp symbol and terminals](images/01_op_amp_symbol.svg)
 
 ## Easy meaning of the two inputs
 
@@ -98,7 +98,7 @@ No current enters the input terminals in the ideal model.
 
 # 4. Feedback: open-loop and closed-loop
 
-![Open-loop vs closed-loop operation](images/02_feedback_modes.png)
+![Open-loop vs closed-loop operation](images/02_feedback_modes.svg)
 
 ## Open-loop mode
 
@@ -129,7 +129,7 @@ In most amplifier circuits, we use **negative feedback** because it:
 
 Real op-amps are close to ideal, but not perfect.
 
-![Ideal vs practical op-amp model](images/03_ideal_practical.png)
+![Ideal vs practical op-amp model](images/03_ideal_practical.svg)
 
 | Property | Ideal | Practical typical |
 |---|---:|---:|
@@ -145,7 +145,7 @@ Real op-amps are close to ideal, but not perfect.
 
 # 6. Internal block diagram of an op-amp
 
-![Internal block diagram of an op-amp](images/04_internal_blocks.png)
+![Internal block diagram of an op-amp](images/04_internal_blocks.svg)
 
 An op-amp has three main internal stages:
 
@@ -173,7 +173,7 @@ An op-amp has three main internal stages:
 
 # 7. Op-amp input modes
 
-![Input modes](images/05_input_modes.png)
+![Input modes](images/05_input_modes.svg)
 
 ## 7.1 Single-ended differential mode
 
@@ -346,7 +346,7 @@ Slew rate = 18 V / 1 μs = 18 V/μs
 
 At low frequency, op-amp open-loop gain is very high. As frequency increases, gain decreases.
 
-![Open-loop frequency response](images/06_frequency_response.png)
+![Open-loop frequency response](images/06_frequency_response.svg)
 
 Typical slope after the dominant pole:
 
@@ -375,7 +375,7 @@ This is why most practical op-amp amplifier circuits use negative feedback.
 
 # 10. Inverting amplifier
 
-![Inverting amplifier](images/07_inverting_amp.png)
+![Inverting amplifier](images/07_inverting_amp.svg)
 
 ## Circuit idea
 
@@ -449,7 +449,7 @@ The circuit becomes a unity-gain inverter.
 
 # 11. Non-inverting amplifier
 
-![Non-inverting amplifier](images/08_non_inverting_amp.png)
+![Non-inverting amplifier](images/08_non_inverting_amp.svg)
 
 ## Circuit idea
 
@@ -490,7 +490,7 @@ Av ≈ 22.3
 
 # 12. Voltage follower
 
-![Voltage follower / buffer](images/09_voltage_follower.png)
+![Voltage follower / buffer](images/09_voltage_follower.svg)
 
 The voltage follower is a special non-inverting amplifier.
 
@@ -551,7 +551,7 @@ High-frequency cut-off depends on closed-loop gain and op-amp bandwidth.
 
 # 14. Summing amplifier
 
-![Inverting summing amplifier](images/10_summing_amp.png)
+![Inverting summing amplifier](images/10_summing_amp.svg)
 
 A summing amplifier adds two or more input voltages.
 
@@ -780,7 +780,7 @@ Vo = (R2/R1)(V2 − V1)
 
 # 19. Integrator
 
-![Op-amp integrator](images/11_integrator.png)
+![Op-amp integrator](images/11_integrator.svg)
 
 An integrator produces an output proportional to the integral of the input.
 
@@ -867,7 +867,7 @@ For frequencies much higher than `fo`, it behaves like a true integrator.
 
 # 21. Differentiator
 
-![Op-amp differentiator](images/12_differentiator.png)
+![Op-amp differentiator](images/12_differentiator.svg)
 
 A differentiator produces an output proportional to the derivative of the input.
 
@@ -955,7 +955,7 @@ Example:
 
 # 24. Phase lag type phase shifter
 
-![All-pass phase shifter: phase lag type](images/13_phase_lag.png)
+![All-pass phase shifter: phase lag type](images/13_phase_lag.svg)
 
 For the phase lag type:
 
@@ -1001,7 +1001,7 @@ By changing `R` or `C`, you can adjust the phase shift.
 
 # 25. Phase lead type phase shifter
 
-![All-pass phase shifter: phase lead type](images/14_phase_lead.png)
+![All-pass phase shifter: phase lead type](images/14_phase_lead.svg)
 
 The phase lead circuit is obtained by interchanging `R` and `C` in the phase-lag circuit.
 
@@ -1055,7 +1055,7 @@ Then we need to create a midpoint reference:
 VB/2
 ```
 
-![Single-supply AC op-amp idea](images/15_single_supply.png)
+![Single-supply AC op-amp idea](images/15_single_supply.svg)
 
 ## Single-supply AC inverting amplifier
 
